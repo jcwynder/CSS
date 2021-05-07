@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Box Model</title>
+    <style>
+      div {
+        background-color: blue;
+        width: 300px;
+        border: 15px solid red;
+        padding: 50px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Demonstrating the Box Model</h1>
+
+    <p>
+      The CSS box model is a box that wraps around every HTML element. It
+      consists of a margin, a boarder, a padding, and the actual content.
+    </p>
+
+    <div>
+      <p style="background-color: white">
+        This text is the content of the box. We have added a 50px padding, 20px
+        margin and a 15px red border.
+      </p>
+    </div>
+    <h2>Descrpiton of Layouts:</h2>
+    <ul>
+      <li>Margin: the space around the outside of the border.</li>
+      <li style="color: red">
+        Boarder: the solid, red line that is just outside the padding.
+      </li>
+      <li style="color: blue">
+        Padding: the space around the content. In the example above, it is the
+        space around the paragraph text.
+      </li>
+    </ul>
+  </body>
+</html>
